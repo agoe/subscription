@@ -1,0 +1,90 @@
+.main {
+  text-align: left;
+}
+
+.section {
+  margin-top: 64px;
+  margin-bottom: 46px;
+}
+
+.input-section {
+  background: #f6f5f8;
+  border-radius: 8px;
+  padding: 16px 0px 16px 0px;
+  position: relative;
+}
+
+.radio-field {
+  padding: 16px;
+}
+
+.input-field input {
+  width: 98%;
+  height: 52px;
+  outline: none;
+  background: #f6f5f8;
+  border: 1px solid #f6f5f8;
+  border-radius: 4px;
+  padding-left: 10px;
+
+  margin-bottom: 12px;
+}
+
+.select {
+  width: 100%;
+}
+
+.select select {
+  padding: 10px;
+  height: 40px;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: none;
+  background: #f6f5f8;
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: gray;
+  margin-bottom: 12px;
+}
+
+.select.focused {
+  border: 1px solid var(--primary-color);
+}
+
+.street-address {
+  display: grid;
+  grid-gap: 25px;
+  gap: 25px;
+  grid-template-columns: 58% 35%;
+}
+.locality {
+  display: grid;
+  grid-gap: 25px;
+  gap: 25px;
+  grid-template-columns: 25% 68%;
+}
+
+.date-picker input {
+  padding: 10px;
+  height: 36px;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: none;
+  background: #f6f5f8;
+  width: 97%;
+  border-radius: 4px;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: gray;
+  margin-bottom: 12px;
+}
